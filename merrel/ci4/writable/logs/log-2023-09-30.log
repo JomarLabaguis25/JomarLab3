@@ -1,0 +1,40 @@
+CRITICAL - 2023-09-30 11:14:48 --> Invalid file: "notiication.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('notiication.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('notiication', [], true)
+ 3 APPPATH\Controllers\AdminController.php(19): view('notiication')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->notification()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\merrel\\ci4\\public\\index.php')
+CRITICAL - 2023-09-30 11:14:56 --> Invalid file: "notiication.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('notiication.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('notiication', [], true)
+ 3 APPPATH\Controllers\AdminController.php(19): view('notiication')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->notification()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\merrel\\ci4\\public\\index.php')
+CRITICAL - 2023-09-30 11:16:30 --> Invalid file: "notiication.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('notiication.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('notiication', [], true)
+ 3 APPPATH\Controllers\AdminController.php(19): view('notiication')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->notification()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\merrel\\ci4\\public\\index.php')
+CRITICAL - 2023-09-30 11:44:10 --> Invalid file: "forgotpass.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forgotpass.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('forgotpass', [], true)
+ 3 APPPATH\Controllers\UserController.php(15): view('forgotpass')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->forgotpass()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\merrel\\ci4\\public\\index.php')
